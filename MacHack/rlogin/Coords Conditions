@@ -1,0 +1,29 @@
+if (coords[0] == 0 && coords[1] == 0 && coords[2] == 0) {
+	color = 0;
+}
+else if (coords[0] == 0 && coords[1] == 0 && coords[2] == n3-1) {
+	color = 0;
+}
+else if (coords[0] == 0 && coords[1] == n2-1 && coords[2] == 0) {
+	color = 0;
+}
+else if (coords[0] == 0 && coords[1] == n2-1 && coords[2] == n3-1) {
+	color = 0;
+}
+else if (coords[0] == n1-1 && coords[1] == 0 && coords[2] == 0) {
+	color = 0;
+}
+else if (coords[0] == n1-1 && coords[1] == 0 && coords[2] == n3-1) {
+	color = 0;
+}
+else if (coords[0] == n1-1 && coords[1] == n2-1 && coords[2] == 0) {
+	color = 0;
+}
+else if (coords[0] == n1-1 && coords[1] == n2-1 && coords[2] == n3-1) {
+	color = 0;
+}
+else {
+	color = 1;
+}
+
+printf("%d: (%d,%d,%d) has a color %d\n", myid_new, coords[0], coords[1], coords[2], color);
