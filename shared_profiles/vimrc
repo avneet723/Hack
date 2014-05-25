@@ -1,0 +1,19 @@
+set nocompatible               " be iMproved
+ filetype off                   " required!
+
+  
+ set background=dark
+ " set cursorcolumn 
+ set cursorline
+ set incsearch
+ set linespace=0
+ set matchtime=5
+ set nostartofline
+ set number
+ set showcmd
+ set showmatch
+ set history=700
+ syntax on
+ filetype plugin indent on
+ set mouse=a
+ 
