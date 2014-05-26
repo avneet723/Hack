@@ -10,6 +10,21 @@
 
 @implementation AppDelegate
 
+- (instancetype) init
+{
+    
+    self = [super init];
+    
+    if (self){
+        
+        self.date = [NSDate date];
+        self.calendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar];
+        self.dateComponents = [_calendar components:NSHourCalendarUnit fromDate:_date];
+        
+    }
+    return self;
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
@@ -42,5 +57,6 @@
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+ 
 
 @end

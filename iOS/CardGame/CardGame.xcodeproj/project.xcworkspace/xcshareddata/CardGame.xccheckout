@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>99809AD5-D826-47DA-ABED-44E68070D769</string>
+	<string>35F66729-776D-4AD6-B89E-5DD25170DC0E</string>
 	<key>IDESourceControlProjectName</key>
 	<string>CardGame</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -34,7 +34,7 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>71B2B2E8-C44C-4E3A-A0CF-BA5E50ED5A40</string>
 			<key>IDESourceControlWCCName</key>
-			<string>PlayingCards</string>
+			<string>CardGame</string>
 		</dict>
 	</array>
 </dict>

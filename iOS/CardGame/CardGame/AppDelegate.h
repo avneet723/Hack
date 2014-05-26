@@ -11,5 +11,8 @@
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) NSDate* date;
+@property (strong, nonatomic) NSCalendar* calendar;
+@property (strong, nonatomic) NSDateComponents* dateComponents;
 
 @end
