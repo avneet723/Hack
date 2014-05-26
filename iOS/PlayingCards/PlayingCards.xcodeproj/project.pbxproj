@@ -10,8 +10,6 @@
 		7641E93A1932A1CB002EEC66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7641E9391932A1CB002EEC66 /* Foundation.framework */; };
 		7641E93C1932A1CB002EEC66 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7641E93B1932A1CB002EEC66 /* CoreGraphics.framework */; };
 		7641E93E1932A1CB002EEC66 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7641E93D1932A1CB002EEC66 /* UIKit.framework */; };
-		7641E9441932A1CB002EEC66 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7641E9421932A1CB002EEC66 /* InfoPlist.strings */; };
-		7641E9461932A1CB002EEC66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7641E9451932A1CB002EEC66 /* main.m */; };
 		7641E94A1932A1CB002EEC66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7641E9491932A1CB002EEC66 /* AppDelegate.m */; };
 		7641E94D1932A1CB002EEC66 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7641E94B1932A1CB002EEC66 /* Main_iPhone.storyboard */; };
 		7641E9501932A1CB002EEC66 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7641E94E1932A1CB002EEC66 /* Main_iPad.storyboard */; };
@@ -22,6 +20,10 @@
 		7641E95E1932A1CB002EEC66 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7641E93D1932A1CB002EEC66 /* UIKit.framework */; };
 		7641E9661932A1CB002EEC66 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7641E9641932A1CB002EEC66 /* InfoPlist.strings */; };
 		7641E9681932A1CB002EEC66 /* PlayingCardsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7641E9671932A1CB002EEC66 /* PlayingCardsTests.m */; };
+		7641E9731932A1E2002EEC66 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 7641E9721932A1E2002EEC66 /* Card.m */; };
+		7641E97C1932A418002EEC66 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 7641E97B1932A418002EEC66 /* Deck.m */; };
+		7641E97F1932AA7A002EEC66 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 7641E97E1932AA7A002EEC66 /* PlayingCard.m */; };
+		7641E9821932AFD4002EEC66 /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 7641E9811932AFD4002EEC66 /* PlayingCardDeck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,10 +41,6 @@
 		7641E9391932A1CB002EEC66 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7641E93B1932A1CB002EEC66 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		7641E93D1932A1CB002EEC66 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		7641E9411932A1CB002EEC66 /* PlayingCards-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlayingCards-Info.plist"; sourceTree = "<group>"; };
-		7641E9431932A1CB002EEC66 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		7641E9451932A1CB002EEC66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7641E9471932A1CB002EEC66 /* PlayingCards-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PlayingCards-Prefix.pch"; sourceTree = "<group>"; };
 		7641E9481932A1CB002EEC66 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7641E9491932A1CB002EEC66 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7641E94C1932A1CB002EEC66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
@@ -55,6 +53,14 @@
 		7641E9631932A1CB002EEC66 /* PlayingCardsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlayingCardsTests-Info.plist"; sourceTree = "<group>"; };
 		7641E9651932A1CB002EEC66 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7641E9671932A1CB002EEC66 /* PlayingCardsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayingCardsTests.m; sourceTree = "<group>"; };
+		7641E9711932A1E2002EEC66 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		7641E9721932A1E2002EEC66 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		7641E97A1932A418002EEC66 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		7641E97B1932A418002EEC66 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		7641E97D1932AA7A002EEC66 /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
+		7641E97E1932AA7A002EEC66 /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
+		7641E9801932AFD4002EEC66 /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardDeck.h; sourceTree = "<group>"; };
+		7641E9811932AFD4002EEC66 /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeck.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,8 +120,6 @@
 		7641E93F1932A1CB002EEC66 /* PlayingCards */ = {
 			isa = PBXGroup;
 			children = (
-				7641E9481932A1CB002EEC66 /* AppDelegate.h */,
-				7641E9491932A1CB002EEC66 /* AppDelegate.m */,
 				7641E94B1932A1CB002EEC66 /* Main_iPhone.storyboard */,
 				7641E94E1932A1CB002EEC66 /* Main_iPad.storyboard */,
 				7641E9511932A1CB002EEC66 /* ViewController.h */,
@@ -129,10 +133,16 @@
 		7641E9401932A1CB002EEC66 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				7641E9411932A1CB002EEC66 /* PlayingCards-Info.plist */,
-				7641E9421932A1CB002EEC66 /* InfoPlist.strings */,
-				7641E9451932A1CB002EEC66 /* main.m */,
-				7641E9471932A1CB002EEC66 /* PlayingCards-Prefix.pch */,
+				7641E9481932A1CB002EEC66 /* AppDelegate.h */,
+				7641E9491932A1CB002EEC66 /* AppDelegate.m */,
+				7641E9801932AFD4002EEC66 /* PlayingCardDeck.h */,
+				7641E9811932AFD4002EEC66 /* PlayingCardDeck.m */,
+				7641E9711932A1E2002EEC66 /* Card.h */,
+				7641E9721932A1E2002EEC66 /* Card.m */,
+				7641E97A1932A418002EEC66 /* Deck.h */,
+				7641E97B1932A418002EEC66 /* Deck.m */,
+				7641E97D1932AA7A002EEC66 /* PlayingCard.h */,
+				7641E97E1932AA7A002EEC66 /* PlayingCard.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -234,7 +244,6 @@
 				7641E9501932A1CB002EEC66 /* Main_iPad.storyboard in Resources */,
 				7641E9551932A1CB002EEC66 /* Images.xcassets in Resources */,
 				7641E94D1932A1CB002EEC66 /* Main_iPhone.storyboard in Resources */,
-				7641E9441932A1CB002EEC66 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,9 +262,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7641E97C1932A418002EEC66 /* Deck.m in Sources */,
+				7641E9821932AFD4002EEC66 /* PlayingCardDeck.m in Sources */,
 				7641E9531932A1CB002EEC66 /* ViewController.m in Sources */,
 				7641E94A1932A1CB002EEC66 /* AppDelegate.m in Sources */,
-				7641E9461932A1CB002EEC66 /* main.m in Sources */,
+				7641E97F1932AA7A002EEC66 /* PlayingCard.m in Sources */,
+				7641E9731932A1E2002EEC66 /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,14 +290,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7641E9421932A1CB002EEC66 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7641E9431932A1CB002EEC66 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		7641E94B1932A1CB002EEC66 /* Main_iPhone.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -393,7 +397,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PlayingCards/PlayingCards-Prefix.pch";
 				INFOPLIST_FILE = "PlayingCards/PlayingCards-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -406,7 +412,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PlayingCards/PlayingCards-Prefix.pch";
 				INFOPLIST_FILE = "PlayingCards/PlayingCards-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

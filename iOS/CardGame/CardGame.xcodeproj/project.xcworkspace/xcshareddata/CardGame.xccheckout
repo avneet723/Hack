@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>9474AD30-4678-4A9A-9411-5352D9D709DF</string>
+	<string>99809AD5-D826-47DA-ABED-44E68070D769</string>
 	<key>IDESourceControlProjectName</key>
-	<string>PlayingCards</string>
+	<string>CardGame</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>71B2B2E8-C44C-4E3A-A0CF-BA5E50ED5A40</key>
 		<string>ssh://github.com/avneet723/Hack.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>iOS/PlayingCards/PlayingCards.xcodeproj/project.xcworkspace</string>
+	<string>iOS/CardGame/CardGame.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>71B2B2E8-C44C-4E3A-A0CF-BA5E50ED5A40</key>
